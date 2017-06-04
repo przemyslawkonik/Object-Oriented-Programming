@@ -1,4 +1,9 @@
-.idea/workspace.xml
+# Intellij
+
+.idea
 *.iml
-target/
 out/
+
+# Maven
+
+target/
