@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="example_1" target="1.8" />
+      <module name="object-oriented-programming" target="1.5" />
       <module name="Object-Oriented-Programming" target="1.5" />
     </bytecodeTargetLevel>
   </component>
