@@ -29,7 +29,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>app.Main</mainClass>
+                            <mainClass>main.app.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
