@@ -1,11 +1,11 @@
 package main.model.device;
 
-import main.model.Adjust;
-import main.model.Operator;
 import main.model.communication.Program;
 import main.model.communication.input.Input;
 import main.model.communication.output.Message;
 import main.model.communication.output.MessageImpl;
+import main.model.operators.Operator;
+import main.model.tools.Adjust;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -124,5 +124,4 @@ public class CalculatorImpl implements Calculator {
         }
         return operators;
     }
-
 }

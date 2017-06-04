@@ -1,4 +1,4 @@
-import main.model.Operator;
+import main.model.operators.Operator;
 import org.junit.Assert;
 import org.junit.Test;
 

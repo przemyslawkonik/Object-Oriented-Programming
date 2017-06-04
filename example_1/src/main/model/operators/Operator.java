@@ -1,10 +1,9 @@
-package main.model;
+package main.model.operators;
 
 /**
  * Created by Przemysław Konik on 2017-06-03.
  */
 public enum Operator {
-
     ADD('+'),
     SUBTRACT('-'),
     MULTIPLY('*'),

@@ -1,4 +1,4 @@
-package main.model;
+package main.model.tools;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
