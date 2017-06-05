@@ -92,23 +92,15 @@ public class CalculatorImpl implements Calculator {
     private List<BigDecimal> pullValues(String input) {
         List<BigDecimal> values = new ArrayList<>();
         int begin = 0;
-        int end = 0;
-        char[] value;
 
         for(int i=0; i<input.length(); i++) {
             if((input.charAt(i) < 48 || input.charAt(i) > 57) && input.charAt(i) != Operator.SEPARATOR.get()) {
-                end = i;
-                value = new char[end-begin];
-                input.getChars(begin, end, value, 0);
-                values.add(new BigDecimal(value));
+                values.add(new BigDecimal(input.substring(begin, i)));
                 begin = i+1;
             }
         }
         //dodanie ostatniej liczby
-        end = input.length();
-        value = new char[end-begin];
-        input.getChars(begin, end, value, 0);
-        values.add(new BigDecimal(value));
+        values.add(new BigDecimal(input.substring(begin)));
 
         return values;
     }
